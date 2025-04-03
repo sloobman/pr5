@@ -33,7 +33,7 @@ const writeUsersToFile = (users) => {
     fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2), 'utf-8');
 };
 
-// Middleware for token authentication
+
 const authenticateToken = (req, res, next) => {
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
