@@ -17,7 +17,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/sloobman/pr5
 2. Перейдите в папку проекта:
     ```bash
    cd pr5
